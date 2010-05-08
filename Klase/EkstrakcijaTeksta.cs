@@ -54,5 +54,17 @@ namespace Klase
             }
             return Sb.ToString();
         }
+        public void posetiRed(Red r)
+        {
+        }
+        public void posetiOtvoreniTag(OtvoreniTag ot)
+        {
+        }
+        public void posetiZatvoreniTag(ZatvoreniTag zt)
+        {
+        }
+        public void posetiVrednost(Vrednost v)
+        {
+        }
     }
 }

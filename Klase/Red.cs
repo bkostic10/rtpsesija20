@@ -14,5 +14,9 @@ namespace Klase
             get { return tag; }
             set { tag = value; }
         }
+        public void prihvati(Posetilac p)
+        {
+            p.posetiRed(this);
+        }
     }
 }

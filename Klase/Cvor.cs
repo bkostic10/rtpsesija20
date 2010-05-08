@@ -12,5 +12,6 @@ namespace Klase
             get;
             set;
         }
+        void prihvati(Posetilac p);
     }
 }

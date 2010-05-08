@@ -31,40 +31,29 @@ namespace Klase
             while (it.MoveNext())
             {
                 c = (Cvor)it.Current;
-                if (c is OtvoreniTag) 
-                {
-                    OtvoreniTag ot = (OtvoreniTag)c;
-                    Sb.Append(ot.Tag);
-                }
-                else if (c is ZatvoreniTag)
-                {
-                    ZatvoreniTag zt = (ZatvoreniTag)c;
-                    Sb.Append(zt.Tag);
-                }
-                else if (c is Vrednost)
-                {
-                    Vrednost vred = (Vrednost)c;
-                    Sb.Append(vred.Tag);
-                }
-                else
-                {
-                    Red r = (Red)c;
-                    Sb.Append(r.Tag);
-                }
+                c.prihvati(this);
             }
             return Sb.ToString();
         }
         public void posetiRed(Red r)
         {
+            r = (Red)c;
+            Sb.Append(r.Tag);
         }
         public void posetiOtvoreniTag(OtvoreniTag ot)
         {
+            ot = (OtvoreniTag)c;
+            Sb.Append(ot.Tag);
         }
         public void posetiZatvoreniTag(ZatvoreniTag zt)
         {
+            zt = (ZatvoreniTag)c;
+            Sb.Append(zt.Tag);
         }
         public void posetiVrednost(Vrednost v)
         {
+            v = (Vrednost)c;
+            Sb.Append(v.Tag);
         }
     }
 }

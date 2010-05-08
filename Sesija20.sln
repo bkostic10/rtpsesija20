@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{46F44BBE-F14C-4241-B749-46E14F01CB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klase", "Klase\Klase.csproj", "{0F344126-E987-471C-80F8-FE5B3DA1466D}"
+EndProject
+Global
+	GlobalSection(MercurialSourceControlSolutionProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46F44BBE-F14C-4241-B749-46E14F01CB6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F44BBE-F14C-4241-B749-46E14F01CB6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F44BBE-F14C-4241-B749-46E14F01CB6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F44BBE-F14C-4241-B749-46E14F01CB6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F344126-E987-471C-80F8-FE5B3DA1466D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F344126-E987-471C-80F8-FE5B3DA1466D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F344126-E987-471C-80F8-FE5B3DA1466D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F344126-E987-471C-80F8-FE5B3DA1466D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

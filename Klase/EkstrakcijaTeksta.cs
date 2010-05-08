@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Klase
 {
-    public class EkstrakcijaTeksta
+    public class EkstrakcijaTeksta : Posetilac
     {
         StringBuilder sb;
 

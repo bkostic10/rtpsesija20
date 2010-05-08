@@ -52,6 +52,7 @@
     <Compile Include="Cvor.cs" />
     <Compile Include="EkstrakcijaTeksta.cs" />
     <Compile Include="OtvoreniTag.cs" />
+    <Compile Include="Posetilac.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Red.cs" />
     <Compile Include="Vrednost.cs" />
